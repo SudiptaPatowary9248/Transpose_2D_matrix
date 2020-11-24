@@ -1,0 +1,6 @@
+import numpy as np
+m=np.array([[1,2],[3,4]])
+temp=m[0][1]
+m[0][1]=m[1][0]
+m[1][0]=temp
+print(m)
